@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0;
 
-import '@phuphamdeltalabs/v2-core/contracts/interfaces/IUniswapV2Pair.sol';
-import '@phuphamdeltalabs/v3-core/contracts/libraries/LowGasSafeMath.sol';
+import '@tpvinh/v2-core/contracts/interfaces/IUniswapV2Pair.sol';
+import '@tpvinh/v3-core/contracts/libraries/LowGasSafeMath.sol';
 
 library UniswapV2Library {
     using LowGasSafeMath for uint256;
